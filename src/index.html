@@ -9,17 +9,23 @@
 </head>
 
 <body>
-    <h1>Buscador de Dominios</h1>
+    <h1>Domain tracker</h1>
     <article id="form">
-        <input type="text" id="dominio" placeholder="Buscar dominio...">
+        <input type="text" id="dominio" placeholder="Example: google.com">
         <input type="submit" onclick="consulta()">
     </article>
-    <article id="respuesta">
-        
-        <p id="resultado"></p>
-        <p id="fecha-expiracion"></p>
-        <p id="año-registrado"></p>
-    </article>
+    <table id="respuesta">   
+        <tr>
+		    <th id="resultado"></th>
+        </tr>
+		<tr>
+            <th id="fecha-expiracion"></th> 
+		</tr>
+        <tr>
+            <th id="año-registrado"></th> 
+		</tr>
+	</table>
+
 </body>
 
 </html>

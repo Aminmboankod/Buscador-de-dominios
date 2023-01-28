@@ -1,14 +1,25 @@
+/* Import de la fuente del banner */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
-    font-family: sans-serif;
+    font-family: Poppins;
+    background-color: rgb(255, 255, 255);
+    margin: 10%;
+    
+}
+table {
+    font-family: Poppins;
+    margin: 5%;
+    color: #1f8dd6;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
     color: #1f8dd6;
-    margin: 30px;
+    margin: 50px;
 }
 
 #form {
@@ -20,7 +31,7 @@ h1 {
 #dominio {
     flex: 1;
     padding: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(214, 202, 202);
     border-radius: 5px 0 0 5px;
 }
 
@@ -36,18 +47,10 @@ input[type="submit"] {
 
 #respuesta {
     display: flex;
-    text-align: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1%;
     color:#1f8dd6;
-    margin:40px;
-    
-}
-
-p {
-    display:flex;
-    border: 1px solid rgb(122, 179, 211);
-    padding: 10px;
-    margin:0px;
-    border-radius:4%;
+    text-align: center;
     
 }
